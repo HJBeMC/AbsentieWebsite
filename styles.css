@@ -21,7 +21,7 @@ nav {
     text-align: center;
     padding: 80px;
     margin: 0px;
-    background-image: url(/Bckgrnd\ img.png); 
+    background-image: url(./Bckgrnd\ img.png); 
     background-position-x: center;
     background-position-y: 55%;
 }
