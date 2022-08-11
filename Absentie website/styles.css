@@ -1,0 +1,93 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+html {
+    background-color: rgb(40, 42, 53);
+}
+
+b {
+    font-size: 20px;
+}
+
+.titletext {
+    color: white;
+    font-size: 35px;
+}
+
+nav {
+    text-align: center;
+    padding: 80px;
+    margin: 0px;
+    background-image: url(/Bckgrnd\ img.png); 
+    background-position-x: center;
+    background-position-y: 55%;
+}
+
+.main1 {
+    color: white;
+    background-color: rgb(40, 42, 53);
+    padding: 50px;
+}
+
+.crewlogo {
+    width: 120px;
+    margin-right: 20px;
+    filter: invert();
+    rotate: 10deg;
+    margin-bottom: 6px;
+}
+
+.hllogo {
+    width: 100px;
+}
+
+.logos {
+    margin-top: 30px;
+}
+
+.formsbutton {
+    margin-top: 30px;
+}
+
+.button {
+    border: none;
+    color: rgb(40, 42, 53);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: 2px solid rgb(40, 42, 53);
+    color: rgb(40, 42, 53);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.flexdisplay {
+    display: flex;
+}
+
+iframe {
+    display: flex;
+    height: 1000px;
+    margin-top: 30px;
+}
+
+.formshtml {
+    overflow-y: hidden;
+}
