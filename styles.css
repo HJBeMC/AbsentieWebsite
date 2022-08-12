@@ -112,3 +112,7 @@ iframe {
 .downloadicon {
     width: 18px;
 }
+
+.terugform {
+    display: flex;
+}
