@@ -1,7 +1,64 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
-    overflow-x: hidden;
+}
+
+.ytvid {
+    width: 450px;
+    height: 338px;
+}
+
+.dropbtn {
+    background-color: rgb(40, 42, 53);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    text-align: left;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: rgb(36, 38, 48);
+    border-radius: 5px;
+}
+
+.dropdownimg {
+    width: 60px;
+    margin: -5px;
 }
 
 html {
@@ -24,6 +81,15 @@ nav {
     background-image: url(./Bckgrnd\ img.png); 
     background-position-x: center;
     background-position-y: 55%;
+    display: flex;
+}
+
+.main0 {
+    color: white;
+    background-color: rgb(40, 42, 53);
+    padding: 50px;
+    margin-right: 0px;
+    margin-top: 0px;
 }
 
 .main1 {
@@ -31,6 +97,8 @@ nav {
     background-color: rgb(40, 42, 53);
     padding: 50px;
     margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 .main2 {
@@ -97,6 +165,14 @@ nav {
     .flexdisplay {
         display: block;
     }
+
+    nav {
+        display: block;
+    }
+
+    .dropdown {
+        margin-top: 20px;
+    }
 }
 
 iframe {
@@ -115,4 +191,8 @@ iframe {
 
 .terugform {
     display: flex;
+}
+
+.darkred {
+    color: rgb(226, 0, 0)
 }
